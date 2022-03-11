@@ -1,0 +1,60 @@
+[
+    {
+        "id":1,
+        "logo":"/api/logos/1",
+        "image":"/api/images/1",
+        "unit":"SPETSNAZ",
+        "name":"Kapkan",
+        "side":"Defender",
+        "role":"Trap",
+        "stats":{
+            "health":2,
+            "speed":2,
+            "difficulty":1
+        },
+        "unique_ability":"Entry Denial Device",
+        "loadout":{
+            "primary":[
+                "9X19VSN",
+                "SASG-12"
+            ],
+            "secondry":[
+                "PMM",
+                "GSH-18"
+            ],
+            "gadget":[
+                "Impact Grenade",
+                "Nitro Cell"
+            ]
+        }
+    },
+    {
+        "id":2,
+        "logo":"/api/logos/2",
+        "image":"/api/images/2",
+        "unit":"SPETSNAZ",
+        "name":"Tachanka",
+        "side":"Defender",
+        "role":"Covering Fire",
+        "stats":{
+            "health":3,
+            "speed":1,
+            "difficulty":1
+        },
+        "unique_ability":"Shumikha Launcher",
+        "loadout":{
+            "primary":[
+                "DP27",
+                "9X19VSN"
+            ],
+            "secondry":[
+                "PMM",
+                "GSH-18"
+            ],
+            "gadget":[
+                "Barbed Wire",
+                "Proximity Alarm"
+            ]
+        }
+    }
+]
