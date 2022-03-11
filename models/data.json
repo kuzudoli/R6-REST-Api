@@ -56,5 +56,746 @@
                 "Proximity Alarm"
             ]
         }
+    },
+    {
+        "id":3,
+        "logo":"/api/logos/3",
+        "image":"/api/images/",
+        "unit":"SPETSNAZ",
+        "name":"Glaz",
+        "side":"Attacker",
+        "role":"Back Line",
+        "stats":{
+            "health":2,
+            "speed":2,
+            "difficulty":1
+        },
+        "unique_ability":"Flip Sight",
+        "loadout":{
+            "primary":[
+                "OTS-03"
+            ],
+            "secondry":[
+                "PMM",
+                "GONNE-6"
+            ],
+            "gadget":[
+                "Smoke Grenade",
+                "Frag Grenade"
+            ]
+        }
+    },
+    {
+        "id":4,
+        "logo":"/api/logos/4",
+        "image":"/api/images/4",
+        "unit":"SPETSNAZ",
+        "name":"Fuze",
+        "side":"Attacker",
+        "role":"Area Denial",
+        "stats":{
+            "health":3,
+            "speed":1,
+            "difficulty":1
+        },
+        "unique_ability":"Cluster Charge",
+        "loadout":{
+            "primary":[
+                "AK-12",
+                "6P41",
+                "BALLISTIC SHIELD"
+            ],
+            "secondry":[
+                "PMM",
+                "GSH-18"
+            ],
+            "gadget":[
+                "Breach Charge"
+            ]
+        }
+    },
+    {
+        "id":5,
+        "logo":"/api/logos/5",
+        "image":"/api/images/5",
+        "unit":"GSG-9",
+        "name":"IQ",
+        "side":"Attacker",
+        "role":"Intel Gatherer",
+        "stats":{
+            "health":1,
+            "speed":3,
+            "difficulty":3
+        },
+        "unique_ability":"Electronics Detector",
+        "loadout":{
+            "primary":[
+                "AUG A2",
+                "552 COMMANDO",
+                "G8A1"
+            ],
+            "secondry":[
+                "P12"
+            ],
+            "gadget":[
+                "Breach Charge",
+                "Claymore"
+            ]
+        }
+    },
+    {
+        "id":6,
+        "logo":"/api/logos/6",
+        "image":"/api/images/6",
+        "unit":"GSG-9",
+        "name":"Blitz",
+        "side":"Attacker",
+        "role":"Shield",
+        "stats":{
+            "health":2,
+            "speed":2,
+            "difficulty":3
+        },
+        "unique_ability":"Flash Shield",
+        "loadout":{
+            "primary":[
+                "G52-Tactical Shield"
+            ],
+            "secondry":[
+                "P12"
+            ],
+            "gadget":[
+                "Smoke Grenade",
+                "Breach Charge"
+            ]
+        }
+    },
+    {
+        "id":7,
+        "logo":"/api/logos/7",
+        "image":"/api/images/7",
+        "unit":"GSG-9",
+        "name":"Bandit",
+        "side":"Defender",
+        "role":"Anti Hard Breach",
+        "stats":{
+            "health":1,
+            "speed":3,
+            "difficulty":1
+        },
+        "unique_ability":"Shock Wire",
+        "loadout":{
+            "primary":[
+                "MP7",
+                "M870"
+            ],
+            "secondry":[
+                "P12"
+            ],
+            "gadget":[
+                "Barbed Wire",
+                "Nitro Cell"
+            ]
+        }
+    },
+    {
+        "id":8,
+        "logo":"/api/logos/8",
+        "image":"/api/images/8",
+        "unit":"GSG-9",
+        "name":"Jäger",
+        "side":"Defender",
+        "role":"Secure",
+        "stats":{
+            "health":2,
+            "speed":2,
+            "difficulty":2
+        },
+        "unique_ability":"Active Defense System",
+        "loadout":{
+            "primary":[
+                "M870",
+                "416-C Carbine"
+            ],
+            "secondry":[
+                "P12"
+            ],
+            "gadget":[
+                "Barbed Wire",
+                "Bulletproof Camera"
+            ]
+        }
+    },
+    {
+        "id":9,
+        "logo":"/api/logos/9",
+        "image":"/api/images/9",
+        "unit":"GIGN",
+        "name":"Rook",
+        "side":"Defender",
+        "role":"Buff",
+        "stats":{
+            "health":3,
+            "speed":1,
+            "difficulty":1
+        },
+        "unique_ability":"Armor Pack",
+        "loadout":{
+            "primary":[
+                "MP5",
+                "P90",
+                "SG-CQB"
+            ],
+            "secondry":[
+                "P9",
+                "LFP586"
+            ],
+            "gadget":[
+                "Proximity Alarm",
+                "Impact Grenade"
+            ]
+        }
+    },
+    {
+        "id":10,
+        "logo":"/api/logos/10",
+        "image":"/api/images/10",
+        "unit":"GIGN",
+        "name":"Doc",
+        "side":"Defender",
+        "role":"Buff",
+        "stats":{
+            "health":3,
+            "speed":1,
+            "difficulty":1
+        },
+        "unique_ability":"Stim Pistol",
+        "loadout":{
+            "primary":[
+                "MP5",
+                "P90",
+                "SG-CQB"
+            ],
+            "secondry":[
+                "P9",
+                "LFP586"
+            ],
+            "gadget":[
+                "Bulletproof Camera",
+                "Barbed Wire"
+            ]
+        }
+    },
+    {
+        "id":11,
+        "logo":"/api/logos/11",
+        "image":"/api/images/11",
+        "unit":"GIGN",
+        "name":"Twitch",
+        "side":"Attacker",
+        "role":"Intel Gatherer",
+        "stats":{
+            "health":2,
+            "speed":2,
+            "difficulty":2
+        },
+        "unique_ability":"Shock Drones",
+        "loadout":{
+            "primary":[
+                "F2",
+                "417",
+                "SG-CQB"
+            ],
+            "secondry":[
+                "P9",
+                "LFP586"
+            ],
+            "gadget":[
+                "Smoke Grenade",
+                "Claymore"
+            ]
+        }
+    },
+    {
+        "id":12,
+        "logo":"/api/logos/12",
+        "image":"/api/images/12",
+        "unit":"GIGN",
+        "name":"Montagne",
+        "side":"Attacker",
+        "role":"Shield",
+        "stats":{
+            "health":3,
+            "speed":1,
+            "difficulty":3
+        },
+        "unique_ability":"Extendable Shield",
+        "loadout":{
+            "primary":[],
+            "secondry":[
+                "P9",
+                "LFP586"
+            ],
+            "gadget":[
+                "Smoke Grenade"
+            ]
+        }
+    },
+    {
+        "id":13,
+        "logo":"/api/logos/13",
+        "image":"/api/images/13",
+        "unit":"FBI SWAT",
+        "name":"Thermite",
+        "side":"Attacker",
+        "role":"Hard Breach",
+        "stats":{
+            "health":2,
+            "speed":2,
+            "difficulty":1
+        },
+        "unique_ability":"Exothermic Charge",
+        "loadout":{
+            "primary":[
+                "M1014",
+                "556XI"
+            ],
+            "secondry":[
+                "5.7 USG",
+                "M45 MEUSOC"
+            ],
+            "gadget":[
+                "Smoke Grenade",
+                "Stun Grenade"
+            ]
+        }
+    },
+    {
+        "id":14,
+        "logo":"/api/logos/14",
+        "image":"/api/images/14",
+        "unit":"FBI SWAT",
+        "name":"Pulse",
+        "side":"Defender",
+        "role":"Roam",
+        "stats":{
+            "health":1,
+            "speed":3,
+            "difficulty":3
+        },
+        "unique_ability":"Heartbeat Sensor",
+        "loadout":{
+            "primary":[
+                "UMP45",
+                "M1014"
+            ],
+            "secondry":[
+                "5.7 USG",
+                "M45 MEUSOC"
+            ],
+            "gadget":[
+                "Barbed Wire",
+                "Nitro Cell"
+            ]
+        }
+    },
+    {
+        "id":15,
+        "logo":"/api/logos/15",
+        "image":"/api/images/15",
+        "unit":"FBI SWAT",
+        "name":"Castle",
+        "side":"Defender",
+        "role":"Secure",
+        "stats":{
+            "health":2,
+            "speed":2,
+            "difficulty":2
+        },
+        "unique_ability":"Armor Panel",
+        "loadout":{
+            "primary":[
+                "UMP45",
+                "M1014"
+            ],
+            "secondry":[
+                "5.7 USG",
+                "SUPER SHORTY"
+            ],
+            "gadget":[
+                "Proximity Alarm",
+                "Impact Grenade"
+            ]
+        }
+    },
+    {
+        "id":16,
+        "logo":"/api/logos/16",
+        "image":"/api/images/16",
+        "unit":"FBI SWAT",
+        "name":"Ash",
+        "side":"Attacker",
+        "role":"Flank",
+        "stats":{
+            "health":1,
+            "speed":3,
+            "difficulty":2
+        },
+        "unique_ability":"Breaching Rounds",
+        "loadout":{
+            "primary":[
+                "G36C",
+                "R4-C"
+            ],
+            "secondry":[
+                "5.7 USG",
+                "M45 MEUSOC"
+            ],
+            "gadget":[
+                "Breach Charge",
+                "Claymore"
+            ]
+        }
+    },
+    {
+        "id":17,
+        "logo":"/api/logos/17",
+        "image":"/api/images/17",
+        "unit":"SAS",
+        "name":"Thatcher",
+        "side":"Attacker",
+        "role":"Disable",
+        "stats":{
+            "health":2,
+            "speed":2,
+            "difficulty":1
+        },
+        "unique_ability":"EMP Grenade",
+        "loadout":{
+            "primary":[
+                "AR33",
+                "L85A2",
+                "M590A1"
+            ],
+            "secondry":[
+                "P226 MK 25"
+            ],
+            "gadget":[
+                "Breach Charge",
+                "Claymore"
+            ]
+        }
+    },
+    {
+        "id":18,
+        "logo":"/api/logos/18",
+        "image":"/api/images/18",
+        "unit":"SAS",
+        "name":"Smoke",
+        "side":"Defender",
+        "role":"Area Denial",
+        "stats":{
+            "health":2,
+            "speed":2,
+            "difficulty":2
+        },
+        "unique_ability":"Remote Gas Grenade",
+        "loadout":{
+            "primary":[
+                "M590A1",
+                "FMG-9"
+            ],
+            "secondry":[
+                "P226 MK 25",
+                "SMG-11"
+            ],
+            "gadget":[
+                "Deployable Shield",
+                "Barbed Wire"
+            ]
+        }
+    },
+    {
+        "id":19,
+        "logo":"/api/logos/19",
+        "image":"/api/images/19",
+        "unit":"SAS",
+        "name":"Sledge",
+        "side":"Attacker",
+        "role":"Soft Breach",
+        "stats":{
+            "health":2,
+            "speed":2,
+            "difficulty":1
+        },
+        "unique_ability":"Tactical Breaching Hammer",
+        "loadout":{
+            "primary":[
+                "L85A2",
+                "M590A1"
+            ],
+            "secondry":[
+                "P226 MK 25",
+                "SMG-11"
+            ],
+            "gadget":[
+                "Frag Grenade",
+                "Stun Grenade"
+            ]
+        }
+    },
+    {
+        "id":20,
+        "logo":"/api/logos/20",
+        "image":"/api/images/20",
+        "unit":"SAS",
+        "name":"Mute",
+        "side":"Defender",
+        "role":"Anti Hard Breach",
+        "stats":{
+            "health":2,
+            "speed":2,
+            "difficulty":1
+        },
+        "unique_ability":"Signal Disruptor",
+        "loadout":{
+            "primary":[
+                "MP5K",
+                "M590A1"
+            ],
+            "secondry":[
+                "P226 MK 25",
+                "SMG-11"
+            ],
+            "gadget":[
+                "Bulletproof Camera",
+                "Nitro Cell"
+            ]
+        }
+    },
+    {
+        "id":21,
+        "logo":"/api/logos/21",
+        "image":"/api/images/21",
+        "unit":"JTF-2",
+        "name":"Frost",
+        "side":"Defender",
+        "role":"Trap",
+        "stats":{
+            "health":2,
+            "speed":2,
+            "difficulty":1
+        },
+        "unique_ability":"Welcome Mat",
+        "loadout":{
+            "primary":[
+                "SUPER 90",
+                "9MM C1"
+            ],
+            "secondry":[
+                "MK1 9MM",
+                "ITA12S"
+            ],
+            "gadget":[
+                "Bulletproof Camera",
+                "Deployable Shield"
+            ]
+        }
+    },
+    {
+        "id":22,
+        "logo":"/api/logos/22",
+        "image":"/api/images/22",
+        "unit":"JTF-2",
+        "name":"Buck",
+        "side":"Attacker",
+        "role":"Soft Breach",
+        "stats":{
+            "health":2,
+            "speed":2,
+            "difficulty":1
+        },
+        "unique_ability":"Skeleton Key",
+        "loadout":{
+            "primary":[
+                "C8-SFW",
+                "CAMRS"
+            ],
+            "secondry":[
+                "MK1 9MM"
+            ],
+            "gadget":[
+                "Stun Grenade"
+            ]
+        }
+    },
+    {
+        "id":23,
+        "logo":"/api/logos/23",
+        "image":"/api/images/23",
+        "unit":"SEALs",
+        "name":"Valkyrie",
+        "side":"Defender",
+        "role":"Roam",
+        "stats":{
+            "health":2,
+            "speed":2,
+            "difficulty":2
+        },
+        "unique_ability":"Black Eye",
+        "loadout":{
+            "primary":[
+                "MPX",
+                "SPAS-12"
+            ],
+            "secondry":[
+                "D-50"
+            ],
+            "gadget":[
+                "Impact Grenade",
+                "Nitro Cell"
+            ]
+        }
+    },
+    {
+        "id":24,
+        "logo":"/api/logos/24",
+        "image":"/api/images/24",
+        "unit":"SEALs",
+        "name":"Blackbeard",
+        "side":"Attacker",
+        "role":"Covering Fire",
+        "stats":{
+            "health":2,
+            "speed":2,
+            "difficulty":1
+        },
+        "unique_ability":"Rifle Shield",
+        "loadout":{
+            "primary":[
+                "MK17 CQB",
+                "SR-25"
+            ],
+            "secondry":[
+                "D-50"
+            ],
+            "gadget":[
+                "Breach Charge",
+                "Stun Grenade"
+            ]
+        }
+    },
+    {
+        "id":25,
+        "logo":"/api/logos/25",
+        "image":"/api/images/25",
+        "unit":"BOPE",
+        "name":"Capitão",
+        "side":"Attacker",
+        "role":"Area Denial",
+        "stats":{
+            "health":1,
+            "speed":3,
+            "difficulty":2
+        },
+        "unique_ability":"Tactical Crossbow",
+        "loadout":{
+            "primary":[
+                "PARA-308",
+                "M249"
+            ],
+            "secondry":[
+                "PRB92"
+            ],
+            "gadget":[
+                "Claymore"
+            ]
+        }
+    },
+    {
+        "id":26,
+        "logo":"/api/logos/26",
+        "image":"/api/images/26",
+        "unit":"BOPE",
+        "name":"Caveira",
+        "side":"Defender",
+        "role":"Roam",
+        "stats":{
+            "health":1,
+            "speed":3,
+            "difficulty":3
+        },
+        "unique_ability":"Silent Step",
+        "loadout":{
+            "primary":[
+                "M12",
+                "SPAS-15"
+            ],
+            "secondry":[
+                "Luison"
+            ],
+            "gadget":[
+                "Proximity Alarm",
+                "Impact Grenade"
+            ]
+        }
+    },
+    {
+        "id":27,
+        "logo":"/api/logos/27",
+        "image":"/api/images/27",
+        "unit":"SAT",
+        "name":"Echo",
+        "side":"Defender",
+        "role":"Crowd Control",
+        "stats":{
+            "health":3,
+            "speed":1,
+            "difficulty":3
+        },
+        "unique_ability":"Yokai",
+        "loadout":{
+            "primary":[
+                "MP5SD",
+                "SUPERNOVA"
+            ],
+            "secondry":[
+                "P229 RC",
+                "BEARING 9"
+            ],
+            "gadget":[
+                "Impact Grenade",
+                "Deployable Shield"
+            ]
+        }
+    },
+    {
+        "id":28,
+        "logo":"/api/logos/28",
+        "image":"/api/images/28",
+        "unit":"SAT",
+        "name":"Hibana",
+        "side":"Attacker",
+        "role":"Hard Breach",
+        "stats":{
+            "health":1,
+            "speed":3,
+            "difficulty":1
+        },
+        "unique_ability":"X-KAIROS",
+        "loadout":{
+            "primary":[
+                "TYPE-89",
+                "SUPERNOVA"
+            ],
+            "secondry":[
+                "P229 RC",
+                "BEARING 9"
+            ],
+            "gadget":[
+                "Stun Grenade",
+                "Breach Charge"
+            ]
+        }
     }
 ]
