@@ -2,6 +2,11 @@ const express = require("express");
 const app = express()
 const fs = require("fs");
 
+//DB
+const mongoose = require("mongoose");
+const Operator = require("./models/Operator");
+
+mongoose.connect('mongodb://localhost/r6-rest-api');
 //Middlewares
 app.use(express.json());
 
@@ -11,21 +16,18 @@ app.get('/',(req,res) => {
 });
 
 //GET OPERATORS
-app.get('/api/operators',(req,res) => {
-  const operators = JSON.parse(fs.readFileSync(__dirname + "/models/data.json","utf-8"))
+app.get('/api/operators',async(req,res) => {
+  const operators = await Operator.find();
+
+  if(!operators)
+    res.status(404).send("Operators not found!");
+
   res.send(operators);
 })
 
 //GET A OPERATOR
-app.get('/api/operators/:id',(req,res) => {
-  const operators =  JSON.parse(fs.readFileSync(__dirname + "/models/data.json","utf-8"));
-  let operator;
-
-  //Searchs operator
-  for(let i=0;i<operators.length;i++){
-    if(operators[i].id == parseInt(req.params.id))
-      operator = operators[i];
-  }
+app.get('/api/operators/:id',async(req,res) => {
+  const operator = await Operator.findById(parseInt(req.params.id));
 
   if(!operator)
     res.status(404).send("The operator with the given ID was not found")
@@ -34,13 +36,13 @@ app.get('/api/operators/:id',(req,res) => {
 })
 
 //GET A OPERATOR LOGO
-app.get('/api/logos/:id',(req,res) => {
-  const logo = fs.readFileSync(__dirname + `/models/logos/${req.params.id}.png`);
+app.get('/api/logos/:id',async(req,res) => {
+  const logo = await Operator.findById(parseInt(req.params.id));
   res.end(logo)
 })
 
 //GET A OPERATOR IMAGE
-app.get('/api/images/:id',(req,res) => {
+app.get('/api/images/:id',async(req,res) => {
   const image = fs.readFileSync(__dirname + `/models/images/${req.params.id}.webp`);
   res.end(image)
 })
