@@ -5,13 +5,15 @@
   "scripts": {
     "start": "nodemon app"
   },
-  "author": "",
+  "author": "Enes (kuzudoli) Cakir",
   "license": "ISC",
-  "keywords": [],
-  "description": "",
+  "keywords": ["rest-api","rainbow six siege"],
+  "description": "R6 REST Api is a service made purely for learning purposes.",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
   "dependencies": {
     "express": "^4.17.3",
-    "mongoose": "^6.2.5",
-    "nodemon": "^2.0.15"
+    "mongoose": "^6.2.5"
   }
 }
