@@ -6,15 +6,18 @@ const OperatorSchema = new Schema({
     logo:String,
     image:String,
     unit:String,
+    name:String,
     side:String,
     role:String,
     stats:{
+        type:Object,
         health:Number,
         speed:Number,
         difficulty:{type:Number,required:false}
     },
     unique_ability:String,
     loadout:{
+        type:Object,
         primary:Array,
         secondary:Array,
         gadget:Array
