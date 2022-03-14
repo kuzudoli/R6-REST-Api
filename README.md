@@ -10,7 +10,7 @@ I hope you'll build apps with my API. Good works.
 
 <div align="center">
   <a href="https://r6-rest-api.herokuapp.com/"><img src="https://i.hizliresim.com/a1e6h43.png" width="200"></a>
-  <a href="https://r6-rest-api.herokuapp.com/"><img src="https://i.hizliresim.com/bevi6cc.png" width="200"></a>
+  <a href="https://enes-cakir.gitbook.io/r6api-documentation/"><img src="https://i.hizliresim.com/bevi6cc.png" width="200"></a>
 </div>
 <br>
 <div align="center">You may find endpoints/queries/paths in documentation how to use R6API or visit website and try it!</div>
