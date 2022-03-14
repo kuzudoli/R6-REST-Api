@@ -1,7 +1,7 @@
 function quick_search(){
     var content = document.getElementById("search").value;
     if(content == '')
-        content = 'https://r6-rest-api.herokuapp.com/operators/1/';
+        content = 'dokk';
     
     var call_url = 'https://r6-rest-api.herokuapp.com/api/operators?name=' + content;
     
