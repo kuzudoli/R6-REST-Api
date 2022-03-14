@@ -6,7 +6,7 @@ const fs = require("fs");
 const mongoose = require("mongoose");
 const Operator = require("./models/Operator");
 
-mongoose.connect('mongodb+srv://kuzudoli:Efwt1sEDfavrobbF@cluster0.ozwtr.mongodb.net/R6-REST-Api?retryWrites=true&w=majority').then(() => {
+mongoose.connect('mongodb://localhost/r6-rest-api').then(() => {
   console.log("DB Connected")
 }).catch((err) => {
   console.log(err);
