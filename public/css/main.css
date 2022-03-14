@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Teko', sans-serif;
+    font-weight: lighter;
+}
+body{
+    background-color: #2f3542;
+}
+/*HEADER*/
+header{
+    width: 100%;
+    height: 300px;
+    background-color: #0a3d62;
+}
+header #title{
+    height: 120px;
+    font-size: 100px;
+    text-align: center;
+    padding-top: 25px;
+    color: white;
+}
+header h2{
+    text-align: center;
+    color: white;
+    letter-spacing: 10px;
+    font-size: 20px;
+    padding-left: 10px;
+}
+.searchInput{
+    position: relative;
+    text-align: center;
+    margin-top: 50px;
+}
+.searchInput input{
+    position: relative;
+    width: 400px;
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+    font-size: 15px;
+    font-family: sans-serif;
+    padding: 0 10px;
+}
+.searchInput input:focus{
+    outline: none;
+}
+.searchInput button{
+    width: 100px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: #f6b93b;
+    border: none;
+    color: white;
+    position: absolute;
+    margin-left: -100px;
+    font-size: 18px;
+    font-family: sans-serif;
+    outline: 4px solid #0a3d62; 
+}
+.searchInput button:hover{
+    background-color: rgba(220, 170, 59,1.0);
+    color: #0a3d62;
+}
+
+/*MAIN*/
+main{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    color: white;
+    background-color: #2f3542;
+    box-shadow: 0px -5px 0px 5px #20242d;
+}
+#request_output{
+    font-family: monospace;
+    width: 45%;
+    height: 475px;
+    box-shadow: inset 0px 0px 7px 4px rgba(0,0,0,0.19);
+    background-color: #20242d;
+    overflow-y: scroll;
+    margin: auto;
+    margin-top: 15px;
+    padding: 10px;
+    transition: all ease-in .5s;
+}
+@media only screen and (max-width: 1300px) {
+    #request_output{
+        width: 60%;
+    }
+}
+@media only screen and (max-width: 800px) {
+    #request_output{
+        width: 90%;
+    }
+}
+#request_output::-webkit-scrollbar-track
+{
+	background-color: #F5F5F5;
+}
+
+#request_output::-webkit-scrollbar
+{
+	width: 10px;
+	background-color: #F5F5F5;
+}
+
+#request_output::-webkit-scrollbar-thumb
+{
+	background-color: #0a3d62;	
+}
+.buttons{
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+}
+.buttons a{
+    background-color:#20242d;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+.buttons a:hover{
+    box-shadow: inset 0px 0px 7px 4px rgba(0,0,0,0.19);
+}
+/*FOOTER*/
+#links{
+    width: 300px;
+    text-align: center;
+    margin: auto;
+    margin-top: 4vw;
+}
+#links a{
+    color: white;
+    font-size: 25px;
+    padding: 10px;
+}

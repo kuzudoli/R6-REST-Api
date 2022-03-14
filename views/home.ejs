@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>R6API</title>
+	<link rel = "icon" href ="/img/icon.png" type = "image/x-icon">
+    <link rel="stylesheet" href="/css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Teko&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a1845262ff.js" crossorigin="anonymous"></script>
+    <script src="//code.jquery.com/jquery-2.1.0.min.js"></script>
+</head>
+<body>
+    <header>
+        <h3 id="title">R6API</h3>
+        <h2>UNOFFICIAL</h2>
+        <form class="searchInput" id="searchInput">
+            <input type="text" oninput="quick_search()" id="search" placeholder="Search operator name...">
+        </form>
+    </header>
+    <main>
+        <pre id="request_output">[
+	{
+		"_id": 35,
+		"logo": "/api/logos/35",
+		"image": "/api/images/35",
+		"unit": "707th SMB",
+		"name": "Dokkaebi",
+		"side": "Attacker",
+		"role": "Anti Roam",
+		"stats": {
+			"health": 2,
+			"speed": 2,
+			"difficulty": 2
+		},
+		"unique_ability": "Logic Bomb",
+		"loadout": {
+			"primary": [
+				"MK 14 EBR",
+				"BOSG.12.2"
+			],
+			"secondary": [
+				"GONNE-6",
+				"SMG-12"
+			],
+			"gadget": [
+				"Smoke Grenade",
+				"Stun Grenade"
+			]
+		}
+	}
+]</pre>
+        <div class="buttons">
+            <a href="https://enes-cakir.gitbook.io/r6api-documentation/" target="_blank">Documentation</a>
+        </div>
+        
+        <div id="links">
+            <a href="https://github.com/kuzudoli" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/kuzudoli/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <p style="letter-spacing: 1px;">Developed with <span style="color:red;">❤</span> by Enes (kuzudoli) Çakır</p>
+        </div>
+    </main>
+    <footer>
+    </footer>
+    <script src="/js/script.js"></script>
+</body>
+</html>
