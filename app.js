@@ -12,12 +12,15 @@ mongoose.connect('mongodb+srv://kuzudoli:Efwt1sEDfavrobbF@cluster0.ozwtr.mongodb
   console.log(err);
 })
 
+//Template Engine
+app.set("view engine","ejs");
 //Middlewares
+app.use(express.static("public"));
 app.use(express.json());
 
 //HOME
 app.get('/',(req,res) => {
-  res.end("Home");
+  res.render("home");
 });
 
 //GET OPERATORS
